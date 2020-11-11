@@ -7,4 +7,6 @@ Elasticsearch container and Kibana for developers
 Links:
 
 https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/plugins/
+
+
 https://opendistro.github.io/for-elasticsearch-docs/docs/install/plugins/
