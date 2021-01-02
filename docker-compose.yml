@@ -3,7 +3,7 @@ version: '3.7'
 services:
   # Elasticsearch Docker Images: https://www.docker.elastic.co/
   elasticsearch:
-    image: gonch_elasticsearch:7.9.1
+    image: gonch_elasticsearch:7.10.1
     build: ./elastic
     container_name: elasticsearch
     environment:
@@ -26,7 +26,7 @@ services:
 
   kibana:
     container_name: kibana
-    image: gonch_kibana:7.9.1
+    image: gonch_kibana:7.10.1
     build: ./kibana
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
